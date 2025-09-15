@@ -1,0 +1,15 @@
+<?php
+// app/Enums/Enums.php
+namespace App\Enums;
+
+enum NamaMadrasah: string {
+    case TK_AL_ITTIFAQIAH = 'TK_AL_ITTIFAQIAH';
+    case TPQ_AL_ITTIFAQIAH = 'TPQ_AL_ITTIFAQIAH';
+    case MD_AL_ITTIFAQIAH = 'MD_AL_ITTIFAQIAH';
+    case MI_AL_ITTIFAQIAH = 'MI_AL_ITTIFAQIAH';
+    case MTS1_AL_ITTIFAQIAH = 'MTS1_AL_ITTIFAQIAH';
+    case MTS2_AL_ITTIFAQIAH = 'MTS2_AL_ITTIFAQIAH';
+    case MA1_AL_ITTIFAQIAH = 'MA1_AL_ITTIFAQIAH';
+    case MA2_AL_ITTIFAQIAH = 'MA2_AL_ITTIFAQIAH';
+    case IAIQI = 'IAIQI';
+}
