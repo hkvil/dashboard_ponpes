@@ -21,7 +21,7 @@ class SantriForm
                 FileUpload::make('foto_url')
                     ->label('Foto Profil')
                     ->image()
-                    ->disk('private')
+                    ->disk('local')
                     ->directory('foto_santri')
                     ->imagePreviewHeight('200')
                     ->acceptedFileTypes(['image/jpeg', 'image/png'])

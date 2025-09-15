@@ -18,7 +18,7 @@ class SantrisTable
             ->columns([
                 ImageColumn::make('foto_url')
                     ->label('Foto Profil')
-                    ->disk('public'),
+                    ->disk('local'),
                 TextColumn::make('nama_madrasah')
                     ->badge()
                     ->searchable(),

@@ -11,6 +11,7 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use App\Filament\Resources\Prestasis\Tables\PrestasiTable;
 
 class PrestasiResource extends Resource
 {
@@ -27,7 +28,7 @@ class PrestasiResource extends Resource
 
     public static function table(Table $table): Table
     {
-        return $table;
+        return PrestasiTable::configure($table);
     }
 
     public static function getRelations(): array
