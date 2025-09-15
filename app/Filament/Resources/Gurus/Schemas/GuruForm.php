@@ -18,7 +18,7 @@ class GuruForm
                 FileUpload::make('profil_url')
                     ->label('Foto Profil')
                     ->image()
-                    ->disk('public')
+                    ->disk('private')
                     ->directory('foto_guru')
                     ->imagePreviewHeight('200')
                     ->acceptedFileTypes(['image/jpeg', 'image/png'])
